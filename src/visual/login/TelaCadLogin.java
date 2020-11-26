@@ -48,7 +48,7 @@ public class TelaCadLogin extends javax.swing.JFrame {
         jLabel31 = new javax.swing.JLabel();
         planodefundolabel = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
         getContentPane().setLayout(null);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 11)); // NOI18N
@@ -151,7 +151,8 @@ public class TelaCadLogin extends javax.swing.JFrame {
         getContentPane().add(planodefundolabel);
         planodefundolabel.setBounds(0, 0, 520, 390);
 
-        pack();
+        setSize(new java.awt.Dimension(516, 420));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCancelarActionPerformed
